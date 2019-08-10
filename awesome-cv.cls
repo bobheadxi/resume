@@ -384,6 +384,10 @@
 % Use to execute conditional statements by checking empty string
 \newcommand*{\ifempty}[3]{\ifthenelse{\isempty{#1}}{#2}{#3}}
 
+\newcommand{\linktext}[1]{\href{https://#1}{#1}}
+
+\newcommand{\b}[1]{\textbf{#1}}
+\newcommand{\i}[1]{\textit{#1}}
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of CV structure
