@@ -108,7 +108,7 @@
     top=1.5cm,
     right=2.0cm,
     bottom=1.5cm,
-    footskip=.5cm
+    footskip=0.5cm
 }
 
 %% Header & Footer
@@ -385,7 +385,7 @@
 \newcommand{\acvHeaderAfterQuoteSkip}{5mm}
 
 % Others
-\newcommand{\acvSectionTopSkip}{2mm}
+\newcommand{\acvSectionTopSkip}{1.5mm}
 \newcommand{\acvSectionContentTopSkip}{1.5mm}
 
 
