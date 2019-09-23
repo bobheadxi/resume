@@ -547,7 +547,7 @@
 % Usage: \cvsubsection{<subsection-title>}
 \newcommand{\cvsubsection}[1]{%
   \vspace{\acvSectionContentTopSkip}
-  \vspace{-3mm}
+  \vspace{-5mm}
   \subsectionstyle{#1}
   \phantomsection
 }
