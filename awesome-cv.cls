@@ -150,43 +150,51 @@
 %                Configuration for fonts
 %-------------------------------------------------------------------------------
 
-% TODO: try to set up Avenir if possible
-
 % Set the FontAwesome font to be up-to-date.
 \newfontfamily\FA[Path=\@fontdir]{FontAwesome}
-% Set font for header (default is Roboto)
 \newfontfamily\headerfont[
   Path=\@fontdir,
   UprightFont=*-Regular,
-  ItalicFont=*-Italic,
+  ItalicFont=*-Light,
   BoldFont=*-Bold,
-  BoldItalicFont=*-BoldItalic,
-]{Roboto}
-
+  BoldItalicFont=*-SemiBold,
+]{Palanquin}
 \newfontfamily\headerfontlight[
   Path=\@fontdir,
   UprightFont=*-Thin,
-  ItalicFont=*-ThinItalic,
+  ItalicFont=*-Thin,
   BoldFont=*-Medium,
-  BoldItalicFont=*-MediumItalic,
-]{Roboto}
+  BoldItalicFont=*-Medium,
+]{Palanquin}
 
-\newcommand*{\footerfont}{\sourcesanspro}
+\newcommand*{\footerfont[
+  Path=\@fontdir,
+  UprightFont=*-Thin,
+  ItalicFont=*-Light,
+  BoldFont=*-Medium,
+  BoldItalicFont=*-Medium,
+]{Palanquin}
 \newcommand*{\bodyfont[
   Path=\@fontdir,
   UprightFont=*-Thin,
-  ItalicFont=*-ThinItalic,
+  ItalicFont=*-Light,
   BoldFont=*-Medium,
-  BoldItalicFont=*-MediumItalic,
-]{Roboto}
-\newcommand*{\bodyfontlight}{\sourcesansprolight}
+  BoldItalicFont=*-Medium,
+]{Palanquin}
+\newcommand*{\bodyfontlight[
+  Path=\@fontdir,
+  UprightFont=*-Thin,
+  ItalicFont=*-Light,
+  BoldFont=*-Medium,
+  BoldItalicFont=*-Medium,
+]{Palanquin}
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
 %-------------------------------------------------------------------------------
 % Configure styles for each CV elements
 % For fundamental structures
-\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{36pt}{1em}\bodyfont\scshape\color{darkgray} #1}}
+\newcommand*{\headerfirstnamestyle}[1]{{\fontsize{30pt}{1em}\bodyfont\bfseries\scshape\color{darkgray} #1}}
 \newcommand*{\headerlastnamestyle}[1]{{\fontsize{36pt}{1em}\headerfont\bfseries\color{text} #1}}
 \newcommand*{\headerpositionstyle}[1]{{\fontsize{7.6pt}{1em}\bodyfont\scshape\color{awesome} #1}}
 \newcommand*{\headeraddressstyle}[1]{{\fontsize{8pt}{1em}\headerfont\itshape\color{lighttext} #1}}
