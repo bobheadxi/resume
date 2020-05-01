@@ -131,7 +131,7 @@
 \definecolor{red}{HTML}{FB4485}
 \definecolor{blue}{HTML}{6CE0F1}
 % Text colors
-\definecolor{darktext}{HTML}{003366}
+\definecolor{darktext}{HTML}{000000}
 \colorlet{text}{gray}
 \colorlet{graytext}{gray}
 \colorlet{lighttext}{lightgray}
@@ -166,7 +166,6 @@
   BoldFont=*-Medium,
   BoldItalicFont=*-Medium,
 ]{Palanquin}
-
 \newcommand*{\footerfont[
   Path=\@fontdir,
   UprightFont=*-Thin,
