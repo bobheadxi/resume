@@ -166,27 +166,27 @@
   BoldFont=*-Medium,
   BoldItalicFont=*-Medium,
 ]{Palanquin}
-\newcommand*{\footerfont[
-  Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-Light,
-  BoldFont=*-Medium,
-  BoldItalicFont=*-Medium,
-]{Palanquin}
-\newcommand*{\bodyfont[
-  Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-Light,
-  BoldFont=*-Medium,
-  BoldItalicFont=*-Medium,
-]{Palanquin}
-\newcommand*{\bodyfontlight[
-  Path=\@fontdir,
-  UprightFont=*-Thin,
-  ItalicFont=*-Light,
-  BoldFont=*-Medium,
-  BoldItalicFont=*-Medium,
-]{Palanquin}
+% \newcommand*\footerfont[
+%   Path=\@fontdir,
+%   UprightFont=*-Thin,
+%   ItalicFont=*-Light,
+%   BoldFont=*-Medium,
+%   BoldItalicFont=*-Medium,
+% ]{Palanquin}
+% \newcommand*\bodyfont[
+%   Path=\@fontdir,
+%   UprightFont=*-Thin,
+%   ItalicFont=*-Light,
+%   BoldFont=*-Medium,
+%   BoldItalicFont=*-Medium,
+% ]{Palanquin}
+% \newcommand*\bodyfontlight[
+%   Path=\@fontdir,
+%   UprightFont=*-Thin,
+%   ItalicFont=*-Light,
+%   BoldFont=*-Medium,
+%   BoldItalicFont=*-Medium,
+% ]{Palanquin}
 
 %-------------------------------------------------------------------------------
 %                Configuration for styles
@@ -406,8 +406,8 @@
 
 \newcommand{\linktext}[1]{\href{https://#1}{#1}}
 
-\newcommand{\b}[1]{\textbf{#1}}
-\newcommand{\i}[1]{\textit{#1}}
+% \newcommand{\b}[1]{\textbf{#1}}
+% \newcommand{\i}[1]{\textit{#1}}
 
 %-------------------------------------------------------------------------------
 %                Commands for elements of CV structure
